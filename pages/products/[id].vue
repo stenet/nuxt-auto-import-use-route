@@ -1,9 +1,5 @@
 ﻿<script lang="ts" setup>
-import { useAsyncState } from "@vueuse/core";
-
-definePageMeta({
-  keepalive: true
-});
+//import { useRoute } from "vue-router";
 
 const route = useRoute();
 const id = route.params.id || "undefined";
